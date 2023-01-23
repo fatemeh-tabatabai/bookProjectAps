@@ -13,9 +13,10 @@ function loadLogIn() {
 
 function loadSingin() {
   form.innerHTML = `
-  <input type="text" required class="form-control" placeholder="Enter Your FirstName" id="firstname"/>
+  <input type="text" required class="form-control" placeholder="Enter Your FirstName" name="username"/>
   <input type="text" required  class="form-control" placeholder="Enter Your LastName" />
   <input type="email" required   class="form-control" placeholder="Enter Your Email" />
   <input type="password" required   class="form-control" placeholder="Enter Your Password" />
     <button type="button" class="btn btn-primary btn-block mb-4 id="submit">SignIn</button>`;
 }
+
